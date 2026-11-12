@@ -1,0 +1,1318 @@
+{
+ "counts": {
+  "composite_clean_rows": 30392,
+  "scam": 19373,
+  "non_scam": 11019,
+  "scam_share": 0.6374374835483022,
+  "english_scripts_rows": 794,
+  "english_scam": 394
+ },
+ "length": {
+  "scam": {
+   "word_count": {
+    "mean": 282.0204924379291,
+    "median": 231.0,
+    "p25": 117.0,
+    "p75": 369.0,
+    "p95": 649.0,
+    "max": 9662.0,
+    "min": 2.0
+   },
+   "char_count": {
+    "mean": 1536.6645331130956,
+    "median": 1253.0,
+    "p25": 626.0,
+    "p75": 2013.0,
+    "p95": 3570.399999999998,
+    "max": 50920.0,
+    "min": 20.0
+   },
+   "unique_words": {
+    "mean": 125.46399628348733,
+    "median": 119.0,
+    "p25": 74.0,
+    "p75": 165.0,
+    "p95": 236.0,
+    "max": 1119.0,
+    "min": 2.0
+   }
+  },
+  "non_scam": {
+   "word_count": {
+    "mean": 426.30166076776476,
+    "median": 33.0,
+    "p25": 12.0,
+    "p75": 236.0,
+    "p95": 2194.1000000000004,
+    "max": 3011.0,
+    "min": 1.0
+   },
+   "char_count": {
+    "mean": 2138.6240130683364,
+    "median": 161.0,
+    "p25": 57.0,
+    "p75": 1264.5,
+    "p95": 10855.0,
+    "max": 14781.0,
+    "min": 2.0
+   },
+   "unique_words": {
+    "mean": 122.81695253652782,
+    "median": 29.0,
+    "p25": 12.0,
+    "p75": 137.0,
+    "p95": 506.0,
+    "max": 669.0,
+    "min": 1.0
+   }
+  }
+ },
+ "word_hist": {
+  "edges": [
+   0.0,
+   59.175,
+   118.35,
+   177.52499999999998,
+   236.7,
+   295.875,
+   355.04999999999995,
+   414.22499999999997,
+   473.4,
+   532.5749999999999,
+   591.75,
+   650.925,
+   710.0999999999999,
+   769.275,
+   828.4499999999999,
+   887.625,
+   946.8,
+   1005.9749999999999,
+   1065.1499999999999,
+   1124.325,
+   1183.5,
+   1242.675,
+   1301.85,
+   1361.0249999999999,
+   1420.1999999999998,
+   1479.375,
+   1538.55,
+   1597.725,
+   1656.8999999999999,
+   1716.0749999999998,
+   1775.25,
+   1834.425,
+   1893.6,
+   1952.7749999999999,
+   2011.9499999999998,
+   2071.125,
+   2130.2999999999997,
+   2189.475,
+   2248.65,
+   2307.825,
+   2367.0
+  ],
+  "cap_p99": 2367.0,
+  "scam": [
+   1894,
+   3030,
+   2316,
+   2709,
+   2228,
+   1943,
+   1599,
+   1016,
+   810,
+   519,
+   343,
+   259,
+   154,
+   90,
+   63,
+   63,
+   52,
+   38,
+   38,
+   33,
+   23,
+   13,
+   14,
+   16,
+   14,
+   11,
+   5,
+   3,
+   4,
+   7,
+   1,
+   1,
+   2,
+   3,
+   0,
+   4,
+   2,
+   2,
+   0,
+   51
+  ],
+  "non_scam": [
+   6415,
+   978,
+   439,
+   433,
+   256,
+   87,
+   60,
+   49,
+   25,
+   14,
+   16,
+   9,
+   7,
+   12,
+   14,
+   30,
+   22,
+   34,
+   27,
+   51,
+   59,
+   44,
+   59,
+   60,
+   64,
+   70,
+   62,
+   89,
+   67,
+   102,
+   96,
+   106,
+   135,
+   113,
+   122,
+   124,
+   108,
+   123,
+   100,
+   338
+  ]
+ },
+ "word_hist_log": {
+  "edges": [
+   1.0,
+   1.2578469455224774,
+   1.5821789383602263,
+   1.9901389448864066,
+   2.503290192990693,
+   3.148755923009716,
+   3.96065301995358,
+   4.981895303422987,
+   6.266461790323381,
+   7.88224982219158,
+   9.914663862688771,
+   12.471129655565155,
+   15.686772344467414,
+   19.731558678594816,
+   24.819280814268016,
+   31.21885656229166,
+   39.26854336958291,
+   49.39381733254678,
+   62.12986225943919,
+   78.14985746876783,
+   98.30055951010661,
+   123.64705852293811,
+   155.52907488591669,
+   195.6317717851869,
+   246.0748265871477,
+   309.5244689926173,
+   389.3344078868304,
+   489.7230957472518,
+   615.9967001374923,
+   774.82956771987,
+   974.617005056941,
+   1225.919022865138,
+   1542.0184983688137,
+   1939.6232581123693,
+   2439.749190680999,
+   3068.831067339034,
+   3860.119784376887,
+   4855.439880129351,
+   6107.400222388726,
+   7682.174714814958,
+   9663.000000000002
+  ],
+  "scam": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   7,
+   10,
+   17,
+   27,
+   48,
+   63,
+   168,
+   454,
+   334,
+   288,
+   652,
+   1070,
+   999,
+   973,
+   1239,
+   1774,
+   2227,
+   2281,
+   2507,
+   1844,
+   1239,
+   601,
+   242,
+   146,
+   78,
+   20,
+   16,
+   17,
+   7,
+   6,
+   8,
+   7,
+   2
+  ],
+  "non_scam": [
+   15,
+   0,
+   0,
+   31,
+   76,
+   0,
+   167,
+   754,
+   383,
+   710,
+   696,
+   498,
+   554,
+   528,
+   894,
+   529,
+   306,
+   325,
+   235,
+   349,
+   400,
+   230,
+   291,
+   358,
+   212,
+   101,
+   83,
+   39,
+   26,
+   65,
+   170,
+   314,
+   624,
+   882,
+   174,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "corr": {
+  "columns": [
+   "label",
+   "word_count",
+   "char_count",
+   "unique_words",
+   "avg_word_len",
+   "question_marks",
+   "placeholder_share"
+  ],
+  "pearson": [
+   [
+    1.0,
+    -0.133,
+    -0.11,
+    0.011,
+    0.514,
+    0.111,
+    -0.002
+   ],
+   [
+    -0.133,
+    1.0,
+    0.998,
+    0.956,
+    -0.004,
+    0.706,
+    -0.114
+   ],
+   [
+    -0.11,
+    0.998,
+    1.0,
+    0.962,
+    0.023,
+    0.719,
+    -0.116
+   ],
+   [
+    0.011,
+    0.956,
+    0.962,
+    1.0,
+    0.12,
+    0.688,
+    -0.151
+   ],
+   [
+    0.514,
+    -0.004,
+    0.023,
+    0.12,
+    1.0,
+    0.094,
+    0.15
+   ],
+   [
+    0.111,
+    0.706,
+    0.719,
+    0.688,
+    0.094,
+    1.0,
+    -0.107
+   ],
+   [
+    -0.002,
+    -0.114,
+    -0.116,
+    -0.151,
+    0.15,
+    -0.107,
+    1.0
+   ]
+  ],
+  "spearman": [
+   [
+    1.0,
+    0.349,
+    0.357,
+    0.34,
+    0.542,
+    0.326,
+    0.193
+   ],
+   [
+    0.349,
+    1.0,
+    0.999,
+    0.995,
+    0.306,
+    0.88,
+    0.252
+   ],
+   [
+    0.357,
+    0.999,
+    1.0,
+    0.994,
+    0.338,
+    0.876,
+    0.256
+   ],
+   [
+    0.34,
+    0.995,
+    0.994,
+    1.0,
+    0.311,
+    0.884,
+    0.251
+   ],
+   [
+    0.542,
+    0.306,
+    0.338,
+    0.311,
+    1.0,
+    0.233,
+    0.242
+   ],
+   [
+    0.326,
+    0.88,
+    0.876,
+    0.884,
+    0.233,
+    1.0,
+    0.219
+   ],
+   [
+    0.193,
+    0.252,
+    0.256,
+    0.251,
+    0.242,
+    0.219,
+    1.0
+   ]
+  ]
+ },
+ "format": {
+  "list_format_scam": 15974,
+  "list_format_non_scam": 0
+ },
+ "vocabulary": {
+  "scam": {
+   "tokens": 5463583,
+   "vocabulary": 14537,
+   "type_token_ratio": 0.002660708183622359,
+   "hapax": 3427
+  },
+  "non_scam": {
+   "tokens": 4697418,
+   "vocabulary": 27143,
+   "type_token_ratio": 0.005778280749126435,
+   "hapax": 8715
+  }
+ },
+ "top_unigrams": {
+  "scam": [
+   [
+    "hello",
+    15655
+   ],
+   [
+    "need",
+    15213
+   ],
+   [
+    "okay",
+    12698
+   ],
+   [
+    "information",
+    12167
+   ],
+   [
+    "service",
+    11470
+   ],
+   [
+    "number",
+    10777
+   ],
+   [
+    "thank",
+    10650
+   ],
+   [
+    "provide",
+    10579
+   ],
+   [
+    "time",
+    10147
+   ],
+   [
+    "contact",
+    9999
+   ],
+   [
+    "tell",
+    9972
+   ],
+   [
+    "customer",
+    9342
+   ],
+   [
+    "confirm",
+    8796
+   ],
+   [
+    "possible",
+    8663
+   ],
+   [
+    "soon",
+    8523
+   ],
+   [
+    "understand",
+    8371
+   ],
+   [
+    "help",
+    8190
+   ],
+   [
+    "account",
+    7987
+   ],
+   [
+    "ensure",
+    7856
+   ],
+   [
+    "really",
+    7847
+   ],
+   [
+    "phone",
+    7756
+   ],
+   [
+    "verify",
+    7721
+   ],
+   [
+    "recently",
+    7593
+   ],
+   [
+    "order",
+    7551
+   ],
+   [
+    "im",
+    7227
+   ]
+  ],
+  "non_scam": [
+   [
+    "im",
+    4398
+   ],
+   [
+    "just",
+    4203
+   ],
+   [
+    "like",
+    3856
+   ],
+   [
+    "think",
+    3724
+   ],
+   [
+    "dont",
+    3517
+   ],
+   [
+    "good",
+    3512
+   ],
+   [
+    "time",
+    3458
+   ],
+   [
+    "know",
+    3371
+   ],
+   [
+    "thats",
+    3145
+   ],
+   [
+    "really",
+    3015
+   ],
+   [
+    "right",
+    2942
+   ],
+   [
+    "yes",
+    2801
+   ],
+   [
+    "did",
+    2781
+   ],
+   [
+    "going",
+    2680
+   ],
+   [
+    "want",
+    2579
+   ],
+   [
+    "lot",
+    2576
+   ],
+   [
+    "ive",
+    2550
+   ],
+   [
+    "people",
+    2537
+   ],
+   [
+    "oh",
+    2513
+   ],
+   [
+    "make",
+    2478
+   ],
+   [
+    "okay",
+    2458
+   ],
+   [
+    "little",
+    2439
+   ],
+   [
+    "day",
+    2434
+   ],
+   [
+    "said",
+    2411
+   ],
+   [
+    "bit",
+    2397
+   ]
+  ]
+ },
+ "top_bigrams": {
+  "scam": [
+   [
+    "customer service",
+    8608
+   ],
+   [
+    "soon possible",
+    8038
+   ],
+   [
+    "id number",
+    5414
+   ],
+   [
+    "okay thank",
+    5114
+   ],
+   [
+    "understand concerns",
+    5003
+   ],
+   [
+    "phone number",
+    4401
+   ],
+   [
+    "need provide",
+    4327
+   ],
+   [
+    "hello customer",
+    4061
+   ],
+   [
+    "thank cooperation",
+    3922
+   ],
+   [
+    "provide id",
+    3827
+   ],
+   [
+    "service center",
+    3708
+   ],
+   [
+    "need confirm",
+    3701
+   ],
+   [
+    "verify identity",
+    3453
+   ],
+   [
+    "order ensure",
+    3270
+   ],
+   [
+    "need cooperate",
+    3166
+   ],
+   [
+    "need verify",
+    3135
+   ],
+   [
+    "safety funds",
+    3056
+   ],
+   [
+    "okay understand",
+    2980
+   ],
+   [
+    "confirm identity",
+    2953
+   ],
+   [
+    "ensure safety",
+    2916
+   ]
+  ],
+  "non_scam": [
+   [
+    "dont know",
+    1786
+   ],
+   [
+    "things like",
+    1771
+   ],
+   [
+    "dont think",
+    1701
+   ],
+   [
+    "little bit",
+    1420
+   ],
+   [
+    "im calling",
+    1209
+   ],
+   [
+    "feel like",
+    1090
+   ],
+   [
+    "long time",
+    1075
+   ],
+   [
+    "really like",
+    1018
+   ],
+   [
+    "really good",
+    900
+   ],
+   [
+    "like think",
+    888
+   ],
+   [
+    "think good",
+    849
+   ],
+   [
+    "lot people",
+    807
+   ],
+   [
+    "dont really",
+    791
+   ],
+   [
+    "high school",
+    774
+   ],
+   [
+    "think really",
+    758
+   ],
+   [
+    "dont like",
+    749
+   ],
+   [
+    "thats right",
+    745
+   ],
+   [
+    "lot things",
+    741
+   ],
+   [
+    "think thats",
+    735
+   ],
+   [
+    "think im",
+    717
+   ]
+  ]
+ },
+ "distinctive": {
+  "scam": [
+   [
+    "thank cooperation",
+    7.710430914679547,
+    3922,
+    0
+   ],
+   [
+    "provide id",
+    7.685916721042839,
+    3827,
+    0
+   ],
+   [
+    "order ensure",
+    7.528669996008379,
+    3270,
+    0
+   ],
+   [
+    "safety funds",
+    7.461008290360829,
+    3056,
+    0
+   ],
+   [
+    "security account",
+    7.104847257059678,
+    2140,
+    0
+   ],
+   [
+    "identity verification",
+    7.0291931615912855,
+    1984,
+    0
+   ],
+   [
+    "certain bank",
+    7.021100047109121,
+    1968,
+    0
+   ],
+   [
+    "bank card",
+    6.976440497127147,
+    1882,
+    0
+   ],
+   [
+    "service center",
+    6.96118936539964,
+    3708,
+    1
+   ],
+   [
+    "detected abnormal",
+    6.893428258185601,
+    1732,
+    0
+   ],
+   [
+    "official customer",
+    6.812952681303949,
+    1598,
+    0
+   ],
+   [
+    "free contact",
+    6.802896028351007,
+    1582,
+    0
+   ],
+   [
+    "abnormal transactions",
+    6.783118669213159,
+    1551,
+    0
+   ],
+   [
+    "center certain",
+    6.77340671200859,
+    1536,
+    0
+   ],
+   [
+    "verification convenient",
+    6.648850628304864,
+    1356,
+    0
+   ],
+   [
+    "hello bank",
+    6.5497750780360295,
+    1228,
+    0
+   ],
+   [
+    "goodbye okay",
+    6.548146413180906,
+    1226,
+    0
+   ],
+   [
+    "information soon",
+    6.520883262422542,
+    1193,
+    0
+   ],
+   [
+    "recorded information",
+    6.507392332681526,
+    1177,
+    0
+   ],
+   [
+    "funds need",
+    6.485941488739053,
+    2305,
+    1
+   ],
+   [
+    "deal soon",
+    6.483336189827291,
+    1149,
+    0
+   ],
+   [
+    "hello manager",
+    6.448834758109625,
+    1110,
+    0
+   ],
+   [
+    "account order",
+    6.437974922873616,
+    1098,
+    0
+   ],
+   [
+    "cooperate identity",
+    6.424232150469587,
+    1083,
+    0
+   ],
+   [
+    "abnormal activities",
+    6.418681719938937,
+    1077,
+    0
+   ]
+  ],
+  "non_scam": [
+   [
+    "coronavirus",
+    7.214460080117427,
+    772,
+    0
+   ],
+   [
+    "memorable",
+    6.812223906038435,
+    516,
+    0
+   ],
+   [
+    "really liked",
+    6.69105021564419,
+    457,
+    0
+   ],
+   [
+    "im type",
+    6.29428081450358,
+    307,
+    0
+   ],
+   [
+    "thought oh",
+    6.244353640547073,
+    292,
+    0
+   ],
+   [
+    "grew",
+    6.155168012040862,
+    267,
+    0
+   ],
+   [
+    "sorry dialed",
+    5.930157046551857,
+    213,
+    0
+   ],
+   [
+    "dramas",
+    5.901719111231323,
+    207,
+    0
+   ],
+   [
+    "calling xyz",
+    5.8896270654662946,
+    410,
+    1
+   ],
+   [
+    "really enjoyed",
+    5.847384760267994,
+    196,
+    0
+   ],
+   [
+    "netflix",
+    5.847384760267994,
+    196,
+    0
+   ],
+   [
+    "watch lot",
+    5.847384760267994,
+    196,
+    0
+   ],
+   [
+    "getting married",
+    5.832039190593334,
+    193,
+    0
+   ],
+   [
+    "liked",
+    5.808042212281984,
+    946,
+    4
+   ],
+   [
+    "hated",
+    5.795289648384592,
+    186,
+    0
+   ],
+   [
+    "dislike",
+    5.7899277052432065,
+    185,
+    0
+   ],
+   [
+    "places like",
+    5.779116789138991,
+    367,
+    1
+   ],
+   [
+    "personalities",
+    5.757137882420216,
+    179,
+    0
+   ],
+   [
+    "really pretty",
+    5.757137882420216,
+    179,
+    0
+   ],
+   [
+    "really hate",
+    5.734665026568157,
+    175,
+    0
+   ],
+   [
+    "lot different",
+    5.723236330744535,
+    173,
+    0
+   ],
+   [
+    "really fun",
+    5.7116755083434585,
+    343,
+    1
+   ],
+   [
+    "wasnt good",
+    5.694079746453079,
+    168,
+    0
+   ],
+   [
+    "really cool",
+    5.694079746453079,
+    168,
+    0
+   ],
+   [
+    "insurance today",
+    5.6881450109332645,
+    167,
+    0
+   ]
+  ]
+ },
+ "artifact_tokens": {
+  "zhang": {
+   "scam": 4856,
+   "non_scam": 0
+  },
+  "xiao": {
+   "scam": 3464,
+   "non_scam": 0
+  },
+  "li": {
+   "scam": 5553,
+   "non_scam": 2
+  },
+  "rupees": {
+   "scam": 4156,
+   "non_scam": 1
+  },
+  "wechat": {
+   "scam": 240,
+   "non_scam": 0
+  },
+  "alipay": {
+   "scam": 163,
+   "non_scam": 0
+  },
+  "otp": {
+   "scam": 45,
+   "non_scam": 0
+  },
+  "kyc": {
+   "scam": 8,
+   "non_scam": 2
+  },
+  "upi": {
+   "scam": 2,
+   "non_scam": 1
+  },
+  "aadhaar": {
+   "scam": 0,
+   "non_scam": 9
+  },
+  "anydesk": {
+   "scam": 1,
+   "non_scam": 0
+  }
+ },
+ "samples": [
+  {
+   "label": 1,
+   "words": 178,
+   "text": "'Welcome to book our services. Which service do you need to book? ', 'I would like to know about your housekeeping service. ', 'Okay, our housekeeping services include daily cleaning, deep cleaning, hourly services, etc. Which service do you need specifically? ', 'Just daily cleaning. ', 'Understood, daily cleaning services include sweeping, mopping, window cleaning, tidying up rooms, etc. When would you like to make an appointment? ', \"Is it okay at ten o'clock next Monday? \", 'Next Monday at 1"
+  },
+  {
+   "label": 1,
+   "words": 374,
+   "text": "'Hello, this is the customer service center of the International Express Company. You found some problems in the latest inspection and need your assistance to deal with it. Do you have any packages sent from abroad recently? ', 'Thank you for your cooperation. When we inspected, we found that the package may contain undeclared items and you need to confirm and pay a small processing fee. In order to avoid the package being detained by customs, can you deal with it as soon as possible? ', 'Usuall"
+  },
+  {
+   "label": 1,
+   "words": 245,
+   "text": "'Sorry, I must confirm your identity first. Please provide your full name and date of birth, okay? ', 'Ah, this is a routine, please rest assured. We recently updated the patient database and need to re-verify some basic information. Have you received a notice from us recently? ', \"(The tone is a little quick) Please wait! That's right, due to system upgrade, we temporarily shut down external customer service. This is why we contact you directly. In order not to affect the update of your health "
+  },
+  {
+   "label": 1,
+   "words": 242,
+   "text": "'Hello, I am a customer service representative from SF Express. One of your packages was found to contain contraband during transportation, and you need to pay a certain fine before it can continue to be delivered. Please provide your name and contact information so that we can handle this issue for you. ', \"Hello, I am Zhang Hua. Can you tell me what exactly the contraband is? I haven't sent anything special lately. \", 'Hello, Mr. Zhang Hua. According to our records, your package contains a boo"
+  },
+  {
+   "label": 1,
+   "words": 359,
+   "text": "'Hello, this is the customer service center of a certain bank. I am Xiao Li, the customer service representative. We have detected that there may be abnormal transactions in your account. Have you had many unexplained expenditures recently? For the safety of your funds, we need to verify it as soon as possible. ', \"Oh, really? I really haven't used my bank card much recently, and I haven't paid attention to my bills. What are these abnormal transactions you are talking about? I have to find out "
+  },
+  {
+   "label": 1,
+   "words": 162,
+   "text": "'Hello, I am your bank customer service representative. We have noticed some unusual transactions in your account. For your safety, we need you to cooperate with us for an identity verification. ', \"Oh, okay, thank you for the reminder. I do have some issues with my account and I haven't been using it much lately. What do I need to do? \", 'Thank you very much for your cooperation. First of all, please tell me your full name and account number so that we can verify the information. ', 'My name is"
+  },
+  {
+   "label": 1,
+   "words": 374,
+   "text": "'Hello, I am a staff member of the National Lottery Center. Congratulations, you won a special prize in this lottery draw, with the prize amount reaching one million dollars! Please provide your name and contact information so that we can arrange for you specific matters to receive the bonus. ', \"Of course, this event is a special online lottery. As long as your mobile phone number is selected, you will have the opportunity to participate in the lottery. You may have obtained this lucky opportun"
+  },
+  {
+   "label": 1,
+   "words": 265,
+   "text": "'Thank you for your call. I am Xiao Zhang, customer service. Is there anything I can help you? ', 'Of course, our retirement savings plan is designed to help employees prepare for the future. What specific aspects do you want to know? For example, payment ratio, matching policies or investment options, etc.? ', \"OK, our company's retirement savings plan allows you to voluntarily deduct a portion of the amount from your salary and deposit it into your plan. The current contribution rate ranges fr"
+  },
+  {
+   "label": 0,
+   "words": 32,
+   "text": "Hey, how's it going? Doing well! Just the usual stuff. Did you catch the game last night? Yes! It was intense right till the end. Alright, I should get going. Talk soon!"
+  },
+  {
+   "label": 0,
+   "words": 34,
+   "text": "Also sir, i sent you an email about how to log into the usc payment portal. I.ll send you another message that should explain how things are back home. Have a great weekend."
+  },
+  {
+   "label": 0,
+   "words": 235,
+   "text": "Hello, my name is John and I'm calling from XYZ Company. We're offering a special deal on our premium software for small businesses. Are you the owner of the company? Yes, that's me. What makes this software so special? Well, it can help you manage your inventory and customer database more efficiently. We've had great feedback from our existing customers. That sounds interesting. But before we proceed, can you tell me more about your company? How long have you been in business? Absolutely. We've"
+  },
+  {
+   "label": 0,
+   "words": 39,
+   "text": "Camera quite good, 10.1mega pixels, 3optical and 5digital dooms. Have a lovely holiday, be safe and i hope you hav a good journey! Happy new year to you both! See you in a couple of weeks! "
+  },
+  {
+   "label": 0,
+   "words": 30,
+   "text": "Hey... Thk we juz go accordin to wat we discussed yest lor, except no kb on sun... Cos there's nt much lesson to go if we attend kb on sat..."
+  },
+  {
+   "label": 0,
+   "words": 205,
+   "text": "Hello.  Hello, this is Karen from Speedy Deliveries. I'm calling to confirm the details of your delivery scheduled for today. Can you please confirm your name and address for me? Hi Karen, my name is Emily Wilson and I live at 123 Main Street. Thank you, Emily. I just need to confirm that your delivery is scheduled to arrive at 123 Main Street today. Can you please confirm that you'll be available to receive the package between 2 pm and 5 pm? Wait, I didn't order anything. I don't think I have a"
+  },
+  {
+   "label": 0,
+   "words": 25,
+   "text": "Lul im gettin some juicy gossip at the hospital. Two nurses are talking about how fat they are gettin. And one thinks shes obese. Oyea."
+  },
+  {
+   "label": 0,
+   "words": 25,
+   "text": "You give us back my id proof and  &lt;#&gt;  rs. We wont allow you to work. We will come to your home within days"
+  },
+  {
+   "label": 1,
+   "words": 44,
+   "text": "[Greetings] [Name], it is [Name]. I have been in this for a year now, and it has been fantastic. I am consistently making [Name] monthly. What is your age and what do you do for a living? This will help us customize your experience.",
+   "source": "english_scripts"
+  },
+  {
+   "label": 0,
+   "words": 29,
+   "text": "[Greetings], this is [Name] from [Company] Bank. We have  noticed some irregular activity on your account. Could you confirm the recent transactions for us to ensure everything is secure?",
+   "source": "english_scripts"
+  },
+  {
+   "label": 0,
+   "words": 30,
+   "text": "[Greetings], this is [Name]. I came across a sale on [Product] at [Company] and remembered you were looking for one. Want to check it out together before the offer ends?",
+   "source": "english_scripts"
+  },
+  {
+   "label": 0,
+   "words": 35,
+   "text": "[Greetings], this is [Name] from [Company] Resorts. You are planning a stay with us. Could you share your preferred check-in and check-out dates so we can check availability and rates for your booking?",
+   "source": "english_scripts"
+  }
+ ]
+}

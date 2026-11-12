@@ -1,0 +1,25 @@
+# AI Scam Conversation Risk Analyzer — runtime configuration
+# Edit these values and restart the app; no retraining needed for [risk] or [app].
+
+[risk]
+# Thresholds apply to the CALIBRATED probability that a conversation is a scam.
+# probability <  medium_threshold                  -> LOW
+# medium_threshold <= probability < high_threshold -> MEDIUM
+# probability >= high_threshold                    -> HIGH
+medium_threshold = 0.35
+high_threshold   = 0.70
+
+# The predicted label (SCAM / NON-SCAM) uses this cut-off on the same probability.
+decision_threshold = 0.50
+
+# Rule escalation: if the model says LOW but the transparent rule layer finds at least
+# `escalate_min_high_severity` HIGH-severity indicators (e.g. OTP/PIN request, remote-access app),
+# the displayed risk is raised to MEDIUM and the reason is shown. The model probability is never changed.
+rule_escalation = true
+escalate_min_high_severity = 1
+
+[app]
+default_model = "auto"      # "auto" = best model by cross-validated F1 among probabilistic models
+min_words = 5               # below this, the app warns that the input is too short to judge
+max_chars = 60000           # longer inputs are truncated (with a visible notice)
+top_k_evidence = 12         # number of model-evidence terms shown

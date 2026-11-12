@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (large / third-party — see data/README.md for how to obtain)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models (models/*.joblib, ~4 MB) ARE committed so the app runs without retraining.
+# They were saved with scikit-learn 1.9.1; on a different version, retrain with scripts/train_models.py.
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit secrets (none are needed; never commit them)
+.streamlit/secrets.toml

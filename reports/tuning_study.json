@@ -1,0 +1,166 @@
+{
+ "folds": 3,
+ "data": "train_full",
+ "rows": [
+  {
+   "tfidf": "10k features, 1-2 grams (original)",
+   "model": "Linear SVM (C=1)",
+   "cv_f1": 0.9942499170669299,
+   "cv_recall": 0.9916534617491465,
+   "cv_precision": 0.9968623472015447,
+   "seconds": 16.5
+  },
+  {
+   "tfidf": "10k features, 1-2 grams (original)",
+   "model": "Logistic Regression (C=1)",
+   "cv_f1": 0.9907537045138289,
+   "cv_recall": 0.9865562685869992,
+   "cv_precision": 0.9949879051444023,
+   "seconds": 14.5
+  },
+  {
+   "tfidf": "10k features, 1-2 grams (original)",
+   "model": "Logistic Regression (C=10)",
+   "cv_f1": 0.9935129811166465,
+   "cv_recall": 0.9905703223607558,
+   "cv_precision": 0.9964750970995878,
+   "seconds": 15.7
+  },
+  {
+   "tfidf": "10k features, 1-2 grams (original)",
+   "model": "Naive Bayes (alpha=1)",
+   "cv_f1": 0.9595559654856114,
+   "cv_recall": 0.965912678299271,
+   "cv_precision": 0.9532875137186126,
+   "seconds": 14.2
+  },
+  {
+   "tfidf": "10k features, 1-2 grams (original)",
+   "model": "Naive Bayes (alpha=0.1)",
+   "cv_f1": 0.9630766341304419,
+   "cv_recall": 0.970500102209618,
+   "cv_precision": 0.9557692593053216,
+   "seconds": 14.1
+  },
+  {
+   "tfidf": "10k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Linear SVM (C=1)",
+   "cv_f1": 0.9943126560096326,
+   "cv_recall": 0.9915897390702452,
+   "cv_precision": 0.9970541334899089,
+   "seconds": 15.5
+  },
+  {
+   "tfidf": "10k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Logistic Regression (C=1)",
+   "cv_f1": 0.9914223127099241,
+   "cv_recall": 0.9868748089050398,
+   "cv_precision": 0.9960137072715519,
+   "seconds": 15.4
+  },
+  {
+   "tfidf": "10k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Logistic Regression (C=10)",
+   "cv_f1": 0.9937041019548536,
+   "cv_recall": 0.9906339963220128,
+   "cv_precision": 0.9967960864277673,
+   "seconds": 16.4
+  },
+  {
+   "tfidf": "10k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Naive Bayes (alpha=1)",
+   "cv_f1": 0.9555034200223206,
+   "cv_recall": 0.9658488581850806,
+   "cv_precision": 0.945391224685438,
+   "seconds": 14.4
+  },
+  {
+   "tfidf": "10k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Naive Bayes (alpha=0.1)",
+   "cv_f1": 0.9599017789474108,
+   "cv_recall": 0.9715194823808742,
+   "cv_precision": 0.9485698328093473,
+   "seconds": 14.5
+  },
+  {
+   "tfidf": "20k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Linear SVM (C=1)",
+   "cv_f1": 0.994727525583551,
+   "cv_recall": 0.9917808218510716,
+   "cv_precision": 0.9976938754498459,
+   "seconds": 15.0
+  },
+  {
+   "tfidf": "20k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Logistic Regression (C=1)",
+   "cv_f1": 0.9916800332061461,
+   "cv_recall": 0.9873845294391956,
+   "cv_precision": 0.9960159276525428,
+   "seconds": 15.3
+  },
+  {
+   "tfidf": "20k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Logistic Regression (C=10)",
+   "cv_f1": 0.9940234809412103,
+   "cv_recall": 0.9909525366400532,
+   "cv_precision": 0.9971156665441726,
+   "seconds": 16.3
+  },
+  {
+   "tfidf": "20k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Naive Bayes (alpha=1)",
+   "cv_f1": 0.9593460653581878,
+   "cv_recall": 0.9719017819160495,
+   "cv_precision": 0.9471188250665863,
+   "seconds": 15.1
+  },
+  {
+   "tfidf": "20k, 1-2 grams, sublinear tf, min_df=2",
+   "model": "Naive Bayes (alpha=0.1)",
+   "cv_f1": 0.9641241816936361,
+   "cv_recall": 0.9741955182300451,
+   "cv_precision": 0.9542642852692672,
+   "seconds": 15.6
+  },
+  {
+   "tfidf": "10k features, unigrams only",
+   "model": "Linear SVM (C=1)",
+   "cv_f1": 0.9924644051015964,
+   "cv_recall": 0.9902516358897819,
+   "cv_precision": 0.9946877266328752,
+   "seconds": 5.7
+  },
+  {
+   "tfidf": "10k features, unigrams only",
+   "model": "Logistic Regression (C=1)",
+   "cv_f1": 0.9884612256289674,
+   "cv_recall": 0.9852181654065362,
+   "cv_precision": 0.9917267066915496,
+   "seconds": 5.7
+  },
+  {
+   "tfidf": "10k features, unigrams only",
+   "model": "Logistic Regression (C=10)",
+   "cv_f1": 0.9920804819011858,
+   "cv_recall": 0.9897419153556263,
+   "cv_precision": 0.9944302771993314,
+   "seconds": 6.1
+  },
+  {
+   "tfidf": "10k features, unigrams only",
+   "model": "Naive Bayes (alpha=1)",
+   "cv_f1": 0.9619633867752903,
+   "cv_recall": 0.9852818880854374,
+   "cv_precision": 0.9397288251868171,
+   "seconds": 5.4
+  },
+  {
+   "tfidf": "10k features, unigrams only",
+   "model": "Naive Bayes (alpha=0.1)",
+   "cv_f1": 0.9662829506285758,
+   "cv_recall": 0.9813953040283061,
+   "cv_precision": 0.9516349897512001,
+   "seconds": 5.2
+  }
+ ]
+}
